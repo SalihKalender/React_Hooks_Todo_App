@@ -1,9 +1,0 @@
-const editView = (id) => {
-    const newTodos = todos.map((todo) => {  // Yani bi edit2i bitirmeden digerine basarsak onu nedit2i iptal olur
-      todo.id == id ? todo.isEdit = true : todo.isEdit = false
-      return todo
-    })
-    setTodo(newTodos)
-  }
-
-Ust component2ten gelen prop2lar hook2a alınabilir ama degistirelemez, ust component2te degistirilir
